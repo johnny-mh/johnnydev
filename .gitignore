@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+packages/plane/example/index.js
+packages/plane/example/index.js.map
