@@ -1,16 +1,18 @@
-import esbuildServe from "esbuild-serve";
+import esbuildServe from 'esbuild-serve';
 
 esbuildServe(
   {
+    logLevel: 'info',
     bundle: true,
-    entryPoints: ["src/index.ts"],
-    format: "esm",
-    outdir: "example",
+    entryPoints: ['src/plane.ts', 'src/plane.css'],
+    format: 'esm',
+    outdir: 'example',
     sourcemap: true,
-    target: ["esnext"],
+    target: ['esnext'],
+    incremental: true,
   },
   {
-    root: "example",
+    root: 'example',
     port: 8080,
   }
 );

@@ -5,12 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      #root {
+        width: 650px;
+        height: 480px;
+        border: 1px solid #ccc;
+      }
+    </style>
+    <link rel="stylesheet" href="plane.css" />
   </head>
   <body>
     <div id="root"></div>
     <script type="module">
-      import { plane } from "./index.js";
-      plane(document.querySelector("#root"));
+      import { plane } from './plane.js';
+      const pnl = plane(document.querySelector('#root'), {
+        groundSize: { width: 1024, height: 768 },
+      });
+      console.log(pnl);
     </script>
   </body>
 </html>

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/plane.css"],
+  "sourcesContent": [".pnl-viewport {\n  width: 100%;\n  height: 100%;\n  overflow: hidden;\n}\n\n.pnl-viewport.pnl-space-pressed {\n  cursor: grab;\n}\n"],
+  "mappings": ";AAAA;AACE;AACA;AACA;AAAA;AAGF;AACE;AAAA;",
+  "names": []
+}

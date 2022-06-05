@@ -1,5 +1,6 @@
 node_modules/
 dist/
 
-packages/plane/example/index.js
-packages/plane/example/index.js.map
+packages/plane/example/plane.js
+packages/plane/example/plane.js.map
+packages/plane/example/plane.css
